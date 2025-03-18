@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scripts.js">
+</head>
+<body>
+
+    <div class="nav">
+        <h1 class="nav__texto">Amigo Secreto</h1>
+        <img src="Recursos/secreto.png" alt="imagen de persona incognita" class="nav__texto">
+    </div>
+
+
+
+
+    <div class="container"> 
+<h2 class="container__element"> Escriba el nombre de tus amigos</h2>
+
+<form class="container__element" action="" onsubmit="return false;">
+<input class="container__element__input" type="text" placeholder="Nombre de tu amigo" id="names" >
+<button class="container__element__button" onclick="namesGuardados()" >Enviar</button>
+</form>
+<p id="resultadoNames"> </p>
+
+
+<button class="container__element, container__element__azar" onclick="seleccionarAleatorio()">Hacer loteria</button>
+<p id="nombreAleatorio"></p>
+
+
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
