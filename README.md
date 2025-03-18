@@ -16,3 +16,4 @@ Sorteo aleatorio: Selecciona un nombre al azar para revelar el amigo secreto.
  Haz clic en Añadir para agregar el nombre a la lista.
  Una vez que todos los jugadores estén en la lista, presiona el botón de Azar.
  El sistema seleccionará al azar un amigo al azar y lo mostrará en pantalla!
+ 
