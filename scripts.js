@@ -37,6 +37,6 @@ function seleccionarAleatorio() {
     let nombreAleatorio = items[indiceAleatorio].textContent;
 
     // Mostrar el nombre aleatorio debajo del botón
-    document.getElementById("nombreAleatorio").textContent = "Nombre elegido al azar: " + nombreAleatorio;
+    document.getElementById("nombreAleatorio").textContent = "El amigo secreto elegido al azar es: " + nombreAleatorio;
 }
 
